@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Didact Gothic', sans-serif;
+    box-sizing: border-box;
+}
+
+.navBarClass {
+    background-color: #262626;
+}
+
+.nav-link {
+    color: #F3F2EE;
+}
+
+.active {
+    color: #86212A !important;
+}
