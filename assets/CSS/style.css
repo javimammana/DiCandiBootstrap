@@ -7,14 +7,3 @@
     box-sizing: border-box;
 }
 
-.navBarClass {
-    background-color: #262626;
-}
-
-.nav-link {
-    color: #F3F2EE;
-}
-
-.active {
-    color: #86212A !important;
-}
