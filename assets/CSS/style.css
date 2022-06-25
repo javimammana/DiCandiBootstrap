@@ -1,9 +1,29 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0 !important;
+    padding: 0 !important;
     list-style: none;
     text-decoration: none;
     font-family: 'Didact Gothic', sans-serif;
     box-sizing: border-box;
+}
+
+.navBarClass {
+    background-color: #F3F2EE;
+}
+.navActive {
+    color: #86212A;
+}
+.lineColorGrey {
+    height: 3px;
+    background-color: #262626;
+}
+
+.footerBarclass {
+    background-color: #86212A;
+    
+}
+
+.footerBarClassTexto {
+    color: #F3F2EE;
 }
 
