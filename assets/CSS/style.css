@@ -30,8 +30,29 @@
 }
 
 .background {
-    background-image:url(../img/backgroud/backgroud.jpg);
     background-attachment: fixed;
-    width: 100%;
+    background-size: cover;
+    background-position: center;
     color: #f3f2eeaa;
+}
+.backgroundGral {
+    background-image:url('../img/backgroud/backgroud.jpg');
+}
+.backgrounMalbec {
+    background-image: url('../img/backgroud/backgroundMalbec.jpg');
+}
+.backgrounCabernet {
+    background-image: url('../img/backgroud/backgroundCabernet.jpg');
+}
+.backgrounTorrontes {
+    background-image: url('../img/backgroud/backgroundTorrontes.jpg');
+}
+.tarjetaBackgrounVisita {
+    background-image: url('../img/backgroud/backgroundVisita.jpg');
+}
+.tarjetaBackgrounDegustacion {
+    background-image: url('../img/backgroud/backgroundDegustacion.jpg');
+}
+.tarjetaBackgrounCircuito {
+    background-image: url('../img/backgroud/backgroundCircuito.jpg');
 }
