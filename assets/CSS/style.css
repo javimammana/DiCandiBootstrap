@@ -29,6 +29,10 @@
     color: #F3F2EE;
 }
 
+.main {
+    height: calc(100vh - 90px);
+}
+
 .background {
     width: 100%;
     background-attachment: fixed;
