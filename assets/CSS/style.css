@@ -94,3 +94,24 @@
     font-size: 16px;
     border: 1px solid #F3F2EE;
 }
+
+.cardClass {
+    background-color: #f3f2ee72;
+    transition: all 0.5s;
+}
+
+.cardClass:hover {
+    transform: scale(1.05);
+    background-color: #F3F2EE;
+    color: #262626;
+}
+
+.precio {
+    color: #86212A;
+}
+
+.btnClass {
+    background-color: #86212A;
+    color: #F3F2EE;
+    border: 2px solid #262626;
+}
