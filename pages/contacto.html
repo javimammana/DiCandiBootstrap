@@ -6,69 +6,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../assets/img/icono.ico">
     <title>DiCandi</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets/CSS/style.css">
 </head>
-<body class="container">
-    <header class="header">
-        <div class="navBox">
-            <a class="navLogo" href="../index.html"> <img class="navLogoImg" src="../assets/img/logo.jpg" alt="Logo">
-            <nav class="navBar">
-                <img class="navBurger" src="../assets/img/navBurger.png" alt="Menu">
-                <ul>
-                    <li><a href="../pages/nosotros.html">Nosotros</a></li>
-                    <li><a href="../pages/productos.html">Productos</a></li>
-                    <li><a href="../pages/servicios.html">Servicios</a></li>
-                    <li><a href="../pages/galeria.html">Galeria</a></li>
-                    <li><a href="../pages/tienda.html">Tienda</a></li>
-                    <li><a href="../pages/contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
+<body>
+
+    <nav>
+        <div class="navbar col-12 navbar-expand-lg bg-light">
+            <div class="navBarClass container-fluid px-2 px-sm-5">
+                <a class="navbar-brand" href="../index.html"><img class="w-50 my-1" src="../assets/img/logo.jpg" alt="DiCandi Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="mx-lg-2 nav-link" href="../pages/nosotros.html">Nosotros</a>
+                        <a class="mx-lg-2 nav-link" aria-current="page" href="../pages/productos.html">Productos</a>
+                        <a class="mx-lg-2 nav-link" href="../pages/servicios.html">Servicios</a>
+                        <a class="mx-lg-2 nav-link" href="../pages/galeria.html">Galeria</a>
+                        <a class="mx-lg-2 nav-link" href="../pages/tienda.html">Tienda</a>
+                        <a class="mx-lg-2 navActive nav-link" href="../pages/contacto.html">Contacto</a>
+                    </div>
+                </div>
+            </div>
         </div>
+        <div class="lineColorGrey col-12">
+        </div>
+    </nav>
+
+    <header>
+    
     </header>
 
-    <main class="main">
+    <main>
 
-            <div class="backgrounBox">
-                <div class="contactoBox">
-                    <div class="ubicacionBox">
-                        <iframe class="ubicacionBoxMapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3418.2799589656443!2d-64.03745268530677!3d-31.04630498152895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x477a8920a694bc0d!2zMzHCsDAyJzQ2LjciUyA2NMKwMDInMDcuMCJX!5e0!3m2!1ses!2sus!4v1653513041591!5m2!1ses!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>    
-                    <form class="formBox" action="">
-                        <input class="formInput" type="text" name="Nombre" id="Nombre" placeholder="Nombre" required>
-                        <input class="formInput" type="text" name="Apellido" id="Apellido" placeholder="Apellido" required>
-                        <input class="formInput" type="email" name="Mail" id="Mail" placeholder="e-Mail" required>
-                        <input class="formInput" type="tel" name="Celular" id="Celular" placeholder="Celular" required>
-                        <select class="formSelect" name="Servicio" id="Servicio" required>
-                            <option value="Bodega">Visita a la Bodega</option>
-                            <option value="Degustacion">Degustación de Vinos</option>
-                            <option value="Cirtuito">Circuito Educativo</option>
-                            <option value="Productos">Productos</option>
-                            <option value="Tienda">Tienda</option>
-                            <option value="Otros">Otras consultas</option>
-                        </select>
-                        <textarea class="formTextarea" name="consulta" id="consulta" cols="30" rows="10" placeholder="Contanos tu consulta..." required></textarea>
+            <div class="background backgroundGral container-fluid d-flex justify-content-center">
+                <div class="container-xl p-3 d-md-flex">
 
-                        <button class="formBtn" type="submit">Consultar</button>
-                    </form>
+                        <form class="d-flex flex-column align-items-center col-md-6" action="">
+                            <input class="formInput my-2 col-12 col-sm-10" type="text" name="Nombre" id="Nombre" placeholder="Nombre" required>
+                            <input class="formInput my-2 col-12 col-sm-10" type="text" name="Apellido" id="Apellido" placeholder="Apellido" required>
+                            <input class="formInput my-2 col-12 col-sm-10" type="email" name="Mail" id="Mail" placeholder="e-Mail" required>
+                            <input class="formInput my-2 col-12 col-sm-10" type="tel" name="Celular" id="Celular" placeholder="Celular" required>
+                            <select class="formSelect my-2 col-12 col-sm-10" name="Servicio" id="Servicio" required>
+                                <option value="Bodega">Visita a la Bodega</option>
+                                <option value="Degustacion">Degustación de Vinos</option>
+                                <option value="Cirtuito">Circuito Educativo</option>
+                                <option value="Productos">Productos</option>
+                                <option value="Tienda">Tienda</option>
+                                <option value="Otros">Otras consultas</option>
+                            </select>
+                            <textarea class="formTextarea my-2 col-12 col-sm-10" name="consulta" id="consulta" cols="30" rows="10" placeholder="Contanos tu consulta..." required></textarea>
+
+                            <button class="formBtn my-2 mb-5 col-12 col-sm-10" type="submit">Consultar</button>
+                        </form>
+                    
+
+                    <div class="d-flex justify-content-center col-md-6">
+                        <iframe class="img-fluid col-12 col-sm-10" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3418.2799589656443!2d-64.03745268530677!3d-31.04630498152895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x477a8920a694bc0d!2zMzHCsDAyJzQ2LjciUyA2NMKwMDInMDcuMCJX!5e0!3m2!1ses!2sus!4v1653513041591!5m2!1ses!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div> 
                 </div>
             </div>     
             
         
     </main>
     
-    <footer class="footer">
-        <nav class="footerBar">
-            <div class="footerUbicacion">
-                <h6><a class="footerUbicacionTexto" href="../pages/contacto.html">Calle 76 (Ramón Mestre) esq. 40, Colonia Caroya, Córdoba, Argentina</a></h6>
-                <a href="../pages/contacto.html"><img class="footerUbicacionImg" src="../assets/img/ubicacion.png" alt="Ubicacion"></a>
+    <footer>
+        <div class="lineColorGrey col-12">
+        </div>
+        <div class="footerBarclass d-flex flex-column col-12 p-1 flex-lg-row">
+            <a class="nav-link footerBarClassTexto text-decoration-none fs-6 col-12 text-center my-1 col-lg-8 text-lg-start ps-lg-5" href="./pages/contacto.html">Calle 76 (Ramón Mestre) esq. 40, Colonia Caroya, Córdoba, Argentina</a>
+            <div class="col-12 col-lg-4">
+                <ul class="d-flex justify-content-center my-4 my-lg-1 justify-content-lg-end pe-lg-5">
+                    <li class="mx-2"><a href="../pages/contacto.html" ><img src="../assets/img/contacto.png" alt="Contacto"></a></li>
+                    <li class="mx-2"><a href="https://www.whatsapp.com" target="_blank"><img src="../assets/img/whatsapp.png" alt="WhatsApp"></a></li>
+                    <li class="mx-2"><a href="https://www.instagram.com/bodega_dicandi/" target="_blank"><img src="../assets/img/instagram.png" alt="Instagram"></a></li>
+                    <li class="mx-2"><a href="https://www.facebook.com/DiCandi.ColoniaCaroya" target="_blank"><img src="../assets/img/facebook.png" alt="Facebook"></a></li>
+                </ul>
             </div>
-            <div class="footerRedes">
-                <a href="../pages/contacto.html"><img class="footerRedesImg" src="../assets/img/contacto.png" alt="Contacto"></a>
-                <a href="https://www.whatsapp.com" target="_blank"><img class="footerRedesImg" src="../assets/img/whatsapp.png" alt="Whatsapp"></a>
-                <a href="https://www.instagram.com/bodega_dicandi/" target="_blank"><img class="footerRedesImg" src="../assets/img/instagram.png" alt="Instagram"></a>
-                <a href="https://www.facebook.com/DiCandi.ColoniaCaroya" target="_blank"><img class="footerRedesImg" src="../assets/img/facebook.png" alt="FaceBook"></a>
-            </div>
-        </nav>
+        </div>
     </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
