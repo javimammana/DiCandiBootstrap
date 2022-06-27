@@ -64,35 +64,26 @@
 }
 
 .formInput {
-    margin-bottom: 10px;
     background-color: #262626;
     color: #F3F2EE;
-    padding: 5px;
     border: 1px solid #86212A;
 }
 
 .formSelect {
-    margin-bottom: 10px;
     background-color: #262626;
     color: #F3F2EE;
-    padding: 5px;
     border: 1px solid #86212A;
 }
 
 .formTextarea {
-    margin-bottom: 10px;
-    height: 100px;
     background-color: #262626;
     color: #F3F2EE;
-    padding: 5px;
     border: 1px solid #86212A;
 }
 
 .formBtn {
     background-color: #F3F2EE;
     color: #86212A;
-    padding: 5px;
-    font-size: 16px;
     border: 1px solid #F3F2EE;
 }
 
